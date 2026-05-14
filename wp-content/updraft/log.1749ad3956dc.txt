@@ -1,0 +1,55 @@
+0000.134 () Opened log file at time: Thu, 14 May 2026 16:12:03 +0000 on https://sanggarwaringin.com
+0000.134 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.11 WP: 6.2.2 PHP: 7.4.33 (apache2handler, Windows NT MADX-ASUS 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 42M | 6M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.134 () Free space on disk containing Updraft's temporary directory: 246903.9 MB
+0000.239 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_charset":"utf8","updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.261 () PHP event: code E_WARNING: Declaration of Updraft_Restorer_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($feedback, ...$args) (line 2451, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\restorer.php)
+0000.600 () Entity: db
+0000.601 () restore_backup(backup_file=backup_2025-08-04-0516_Sanggar_Waringin_2d1cc38e687a-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.602 () Unpacking backup... (backup_2025-08-04-0516_Sanggar_Waringin_2d1cc38e687a-db.gz, 0.4 Mb)
+0000.609 () Database successfully unpacked
+0000.611 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.611 () Using direct MySQL access; value of use_mysqli is: 1
+0001.729 () Max packet size: 32 MB
+0001.729 () Entering maintenance mode
+0001.729 () Enabling Maintenance mode&#8230;
+0001.748 () Backup of: http://www.sanggarwaringin.com
+0001.749 () Content URL: http://www.sanggarwaringin.com/wp-content
+0001.749 () Uploads URL: http://www.sanggarwaringin.com/wp-content/uploads
+0001.750 () Old table prefix: ik_
+0001.750 () Site information: multisite=0
+0001.751 () New table prefix: sw_
+0001.968 () Processing table (InnoDB): ik_options - will restore as: sw_options
+0004.073 () Restoring prior UD configuration (table: sw_options; keys: 90)
+0015.777 () Table prefix has changed: changing options table field(s) accordingly (options)
+0015.833 () Options table fields changed OK
+0016.090 () Processing table (InnoDB): ik_users - will restore as: sw_users
+0016.522 () Processing table (InnoDB): ik_usermeta - will restore as: sw_usermeta
+0017.508 () Table prefix has changed: changing usermeta table field(s) accordingly
+0017.608 () Usermeta table fields changed OK
+0017.608 () Processing table (InnoDB): ik_commentmeta - will restore as: sw_commentmeta
+0018.130 () Processing table (InnoDB): ik_comments - will restore as: sw_comments
+0018.592 () Processing table (InnoDB): ik_links - will restore as: sw_links
+0018.928 () Processing table (InnoDB): ik_postmeta - will restore as: sw_postmeta
+0020.158 () Processing table (InnoDB): ik_posts - will restore as: sw_posts
+0020.927 () Processing table (InnoDB): ik_term_relationships - will restore as: sw_term_relationships
+0021.393 () Processing table (InnoDB): ik_term_taxonomy - will restore as: sw_term_taxonomy
+0022.115 () Processing table (MyISAM): ik_termmeta - will restore as: sw_termmeta
+0022.313 () Processing table (InnoDB): ik_terms - will restore as: sw_terms
+0022.502 () Processing table (MyISAM): ik_aiowps_events - will restore as: sw_aiowps_events
+0022.535 () Processing table (MyISAM): ik_aiowps_failed_logins - will restore as: sw_aiowps_failed_logins
+0022.672 () Processing table (MyISAM): ik_aiowps_global_meta - will restore as: sw_aiowps_global_meta
+0022.704 () Database queries processed: 50 in 22.09 seconds
+0022.706 () Processing table (MyISAM): ik_aiowps_login_activity - will restore as: sw_aiowps_login_activity
+0022.801 () Processing table (MyISAM): ik_aiowps_login_lockdown - will restore as: sw_aiowps_login_lockdown
+0023.113 () Processing table (MyISAM): ik_aiowps_permanent_block - will restore as: sw_aiowps_permanent_block
+0023.299 () Processing table (MyISAM): ik_wpb2d_excluded_files - will restore as: sw_wpb2d_excluded_files
+0023.546 () Processing table (MyISAM): ik_wpb2d_options - will restore as: sw_wpb2d_options
+0023.749 () Processing table (MyISAM): ik_wpb2d_processed_dbtables - will restore as: sw_wpb2d_processed_dbtables
+0023.824 () Processing table (MyISAM): ik_wpb2d_processed_files - will restore as: sw_wpb2d_processed_files
+0023.921 () Unlocking database and leaving maintenance mode
+0023.922 () Disabling Maintenance mode&#8230;
+0023.922 () Finished: lines processed: 78 in 23.31 seconds
+0023.923 () Cleaning up rubbish...
+0025.007 () Clearing cached pages (WP Super Cache)...
+0025.014 () Restore successful!
+0025.014 () Restore successful

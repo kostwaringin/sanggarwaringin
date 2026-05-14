@@ -1,0 +1,220 @@
+0000.279 () Opened log file at time: Thu, 14 May 2026 15:39:20 +0000 on https://sanggarwaringin.com
+0000.280 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 6.2.2 PHP: 8.1.25 (apache2handler, Windows NT MADX-ASUS 10.0 build 17134 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.1.25 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 40.1M | 42M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.281 () Free space on disk containing Updraft's temporary directory: 246996.6 MB
+0000.557 () Restore setup, now closing connection and starting restore over AJAX.
+0000.068 () Opened log file at time: Thu, 14 May 2026 15:39:21 +0000 on https://sanggarwaringin.com
+0000.068 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 6.2.2 PHP: 8.1.25 (apache2handler, Windows NT MADX-ASUS 10.0 build 17134 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.1.25 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 37.9M | 40M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.068 () Free space on disk containing Updraft's temporary directory: 246996.6 MB
+0000.094 () Ensuring WP_Filesystem is setup for a restore
+0000.098 () WP_Filesystem is setup and ready for a restore
+0000.213 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["ik_options","ik_users","ik_usermeta","ik_commentmeta","ik_comments","ik_links","ik_postmeta","ik_posts","ik_term_relationships","ik_term_taxonomy","ik_termmeta","ik_terms","ik_aiowps_events","ik_aiowps_failed_logins","ik_aiowps_global_meta","ik_aiowps_login_activity","ik_aiowps_login_lockdown","ik_aiowps_permanent_block","ik_wpb2d_excluded_files","ik_wpb2d_options","ik_wpb2d_processed_dbtables","ik_wpb2d_processed_files"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.213 () PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2809, D:\xampp81\htdocs-sanggar\wp-includes\formatting.php)
+0000.228 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.277 () Entity: db
+0000.277 () restore_backup(backup_file=backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-db.gz, type=db, info=a:0:{}, last_one=)
+0000.278 () Unpacking backup... (backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-db.gz, 0.4 Mb)
+0000.279 () PHP event: code E_WARNING: mkdir(): File exists (line 558, D:\xampp81\htdocs-sanggar\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.281 () Database successfully unpacked
+0000.283 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.283 () Using direct MySQL access; value of use_mysqli is: 1
+0000.284 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0002.581 () Max packet size: 32 MB
+0002.581 () Entering maintenance mode
+0002.582 () Enabling Maintenance mode&#8230;
+0004.402 () Backup of: http://www.sanggarwaringin.com
+0004.446 () Content URL: http://www.sanggarwaringin.com/wp-content
+0004.447 () Uploads URL: http://www.sanggarwaringin.com/wp-content/uploads
+0004.447 () Old table prefix: ik_
+0004.447 () Site information: multisite=0
+0004.449 () New table prefix: au_
+0004.678 () Processing table (InnoDB): ik_options - will restore as: au_options
+0006.778 () Atomic restore: dropping original table (sw_options)
+0007.561 () Atomic restore: renaming new table (au_options) to final table name (sw_options)
+0008.252 () Restoring prior UD configuration (table: sw_options; keys: 98)
+0012.654 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0012.654 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0012.654 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0012.656 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0012.656 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0012.656 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0014.158 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0014.594 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0014.639 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0017.048 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 206, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\options.php)
+0017.148 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 206, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\options.php)
+0021.301 () Table prefix has changed: changing options table field(s) accordingly (options)
+0021.376 () Options table fields changed OK
+0022.432 () Search and replacing table: sw_options: rows: 385
+0022.711 () Incomplete object detected in database: APLPresetDbObj; Search and replace will be skipped for these entries
+0023.041 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0023.156 () PHP event: code E_USER_DEPRECATED: The PSR-0 `Requests_...` class names in the Request library are deprecated. Switch to the PSR-4 `WpOrg\Requests\...` class names at your earliest convenience. (line 171, D:\xampp81\htdocs-sanggar\wp-includes\Requests\src\Autoload.php)
+0023.675 () Processing table (InnoDB): ik_users - will restore as: au_users
+0026.312 () Atomic restore: dropping original table (sw_users)
+0026.876 () Atomic restore: renaming new table (au_users) to final table name (sw_users)
+0027.620 () Search and replacing table: sw_users: rows: 3
+0027.620 () Processing table (InnoDB): ik_usermeta - will restore as: au_usermeta
+0028.983 () Atomic restore: dropping original table (sw_usermeta)
+0029.695 () Atomic restore: renaming new table (au_usermeta) to final table name (sw_usermeta)
+0030.117 () Table prefix has changed: changing usermeta table field(s) accordingly
+0030.255 () Usermeta table fields changed OK
+0030.275 () Search and replacing table: sw_usermeta: rows: 56
+0030.281 () Processing table (InnoDB): ik_commentmeta - will restore as: au_commentmeta
+0032.359 () Atomic restore: dropping original table (sw_commentmeta)
+0033.230 () Atomic restore: renaming new table (au_commentmeta) to final table name (sw_commentmeta)
+0033.614 () Search and replacing table: sw_commentmeta: rows: 0
+0033.614 () Processing table (InnoDB): ik_comments - will restore as: au_comments
+0034.866 () Atomic restore: dropping original table (sw_comments)
+0035.209 () Atomic restore: renaming new table (au_comments) to final table name (sw_comments)
+0035.721 () Search and replacing table: sw_comments: rows: 1
+0035.723 () Processing table (InnoDB): ik_links - will restore as: au_links
+0036.387 () Atomic restore: dropping original table (sw_links)
+0036.640 () Atomic restore: renaming new table (au_links) to final table name (sw_links)
+0037.062 () Search and replacing table: sw_links: rows: 0
+0037.062 () Processing table (InnoDB): ik_postmeta - will restore as: au_postmeta
+0038.196 () Atomic restore: dropping original table (sw_postmeta)
+0039.004 () Atomic restore: renaming new table (au_postmeta) to final table name (sw_postmeta)
+0039.378 () Search and replacing table: sw_postmeta: rows: 11
+0039.386 () Processing table (InnoDB): ik_posts - will restore as: au_posts
+0041.029 () Atomic restore: dropping original table (sw_posts)
+0041.890 () Atomic restore: renaming new table (au_posts) to final table name (sw_posts)
+0042.362 () Skipping search/replace on GUID column in posts table
+0042.364 () Search and replacing table: sw_posts: rows: 28
+0043.043 () Processing table (InnoDB): ik_term_relationships - will restore as: au_term_relationships
+0043.852 () Atomic restore: dropping original table (sw_term_relationships)
+0045.428 () Atomic restore: renaming new table (au_term_relationships) to final table name (sw_term_relationships)
+0045.706 () Skipping this table: data in this table (sw_term_relationships) should not be search/replaced
+0045.706 () Processing table (InnoDB): ik_term_taxonomy - will restore as: au_term_taxonomy
+0046.716 () Atomic restore: dropping original table (sw_term_taxonomy)
+0047.434 () Atomic restore: renaming new table (au_term_taxonomy) to final table name (sw_term_taxonomy)
+0047.887 () Search and replacing table: sw_term_taxonomy: rows: 1
+0047.888 () Processing table (MyISAM): ik_termmeta - will restore as: au_termmeta
+0048.039 () Atomic restore: dropping original table (sw_termmeta)
+0048.534 () Atomic restore: renaming new table (au_termmeta) to final table name (sw_termmeta)
+0048.650 () Search and replacing table: sw_termmeta: rows: 0
+0048.650 () Processing table (InnoDB): ik_terms - will restore as: au_terms
+0049.546 () Atomic restore: dropping original table (sw_terms)
+0050.013 () Atomic restore: renaming new table (au_terms) to final table name (sw_terms)
+0050.445 () Search and replacing table: sw_terms: rows: 1
+0050.446 () Processing table (MyISAM): ik_aiowps_events - will restore as: au_aiowps_events
+0050.847 () Atomic restore: dropping original table (sw_aiowps_events)
+0050.848 () Atomic restore: renaming new table (au_aiowps_events) to final table name (sw_aiowps_events)
+0050.891 () Search and replacing table: sw_aiowps_events: rows: 0
+0050.892 () Processing table (MyISAM): ik_aiowps_failed_logins - will restore as: au_aiowps_failed_logins
+0051.345 () Atomic restore: dropping original table (sw_aiowps_failed_logins)
+0051.346 () Database queries processed: 50 in 51.06 seconds
+0051.346 () Atomic restore: renaming new table (au_aiowps_failed_logins) to final table name (sw_aiowps_failed_logins)
+0051.358 () Search and replacing table: sw_aiowps_failed_logins: rows: 5000
+0051.535 () Searching and replacing reached row: 5000
+0051.537 () Processing table (MyISAM): ik_aiowps_global_meta - will restore as: au_aiowps_global_meta
+0051.988 () Atomic restore: dropping original table (sw_aiowps_global_meta)
+0051.990 () Atomic restore: renaming new table (au_aiowps_global_meta) to final table name (sw_aiowps_global_meta)
+0052.057 () Search and replacing table: sw_aiowps_global_meta: rows: 0
+0052.058 () Processing table (MyISAM): ik_aiowps_login_activity - will restore as: au_aiowps_login_activity
+0052.352 () Atomic restore: dropping original table (sw_aiowps_login_activity)
+0052.354 () Atomic restore: renaming new table (au_aiowps_login_activity) to final table name (sw_aiowps_login_activity)
+0052.380 () Search and replacing table: sw_aiowps_login_activity: rows: 5
+0052.382 () Processing table (MyISAM): ik_aiowps_login_lockdown - will restore as: au_aiowps_login_lockdown
+0052.822 () Atomic restore: dropping original table (sw_aiowps_login_lockdown)
+0052.822 () Atomic restore: renaming new table (au_aiowps_login_lockdown) to final table name (sw_aiowps_login_lockdown)
+0052.858 () Search and replacing table: sw_aiowps_login_lockdown: rows: 6784
+0053.042 () Searching and replacing reached row: 5000
+0053.098 () Processing table (MyISAM): ik_aiowps_permanent_block - will restore as: au_aiowps_permanent_block
+0053.481 () Atomic restore: dropping original table (sw_aiowps_permanent_block)
+0053.482 () Atomic restore: renaming new table (au_aiowps_permanent_block) to final table name (sw_aiowps_permanent_block)
+0053.488 () Search and replacing table: sw_aiowps_permanent_block: rows: 0
+0053.488 () Processing table (MyISAM): ik_wpb2d_excluded_files - will restore as: au_wpb2d_excluded_files
+0053.637 () Atomic restore: dropping original table (sw_wpb2d_excluded_files)
+0053.638 () Atomic restore: renaming new table (au_wpb2d_excluded_files) to final table name (sw_wpb2d_excluded_files)
+0053.644 () Search and replacing table: sw_wpb2d_excluded_files: rows: 0
+0053.644 () Processing table (MyISAM): ik_wpb2d_options - will restore as: au_wpb2d_options
+0053.762 () Atomic restore: dropping original table (sw_wpb2d_options)
+0053.762 () Atomic restore: renaming new table (au_wpb2d_options) to final table name (sw_wpb2d_options)
+0053.784 () Search and replacing table: sw_wpb2d_options: rows: 13
+0053.785 () Processing table (MyISAM): ik_wpb2d_processed_dbtables - will restore as: au_wpb2d_processed_dbtables
+0053.984 () Atomic restore: dropping original table (sw_wpb2d_processed_dbtables)
+0053.984 () Atomic restore: renaming new table (au_wpb2d_processed_dbtables) to final table name (sw_wpb2d_processed_dbtables)
+0054.092 () Search and replacing table: sw_wpb2d_processed_dbtables: rows: 0
+0054.093 () Processing table (MyISAM): ik_wpb2d_processed_files - will restore as: au_wpb2d_processed_files
+0054.611 () Unlocking database and leaving maintenance mode
+0054.611 () Disabling Maintenance mode&#8230;
+0054.612 () Atomic restore: dropping original table (sw_wpb2d_processed_files)
+0054.613 () Atomic restore: renaming new table (au_wpb2d_processed_files) to final table name (sw_wpb2d_processed_files)
+0054.625 () Search and replacing table: sw_wpb2d_processed_files: rows: 0
+0054.625 () Finished: lines processed: 76 in 54.34 seconds
+0054.626 () Cleaning up rubbish...
+0054.627 () Begin search and replace (updraftplus_restored_db)
+0054.627 () [Database-replace-site-url] Database: search and replace site URL
+0054.628 () Restored pre-migration site ID for this installation
+0055.037 () Database search and replace: replace http://www.sanggarwaringin.com in backup dump with https://sanggarwaringin.com
+0055.037 () Database search and replace: replace https://www.sanggarwaringin.com in backup dump with https://sanggarwaringin.com
+0055.039 () Search and replacing table: sw_aiowps_events: already done
+0055.039 () Search and replacing table: sw_aiowps_failed_logins: already done
+0055.039 () Search and replacing table: sw_aiowps_global_meta: already done
+0055.040 () Search and replacing table: sw_aiowps_login_activity: already done
+0055.040 () Search and replacing table: sw_aiowps_login_lockdown: already done
+0055.040 () Search and replacing table: sw_aiowps_permanent_block: already done
+0055.040 () Search and replacing table: sw_commentmeta: already done
+0055.040 () Search and replacing table: sw_comments: already done
+0055.040 () Search and replacing table: sw_links: already done
+0055.040 () Search and replacing table: sw_options: already done
+0055.041 () Search and replacing table: sw_postmeta: already done
+0055.041 () Search and replacing table: sw_posts: already done
+0055.041 () Search and replacing table: sw_term_relationships: already done
+0055.041 () Search and replacing table: sw_term_taxonomy: already done
+0055.041 () Search and replacing table: sw_termmeta: already done
+0055.042 () Search and replacing table: sw_terms: already done
+0055.042 () Search and replacing table: sw_usermeta: already done
+0055.042 () Search and replacing table: sw_users: already done
+0055.042 () Search and replacing table: sw_wpb2d_excluded_files: already done
+0055.042 () Search and replacing table: sw_wpb2d_options: already done
+0055.042 () Search and replacing table: sw_wpb2d_processed_dbtables: already done
+0055.042 () Search and replacing table: sw_wpb2d_processed_files: already done
+0055.755 () Entity: plugins
+0055.755 () restore_backup(backup_file=backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"D:\xampp81\htdocs-sanggar/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0055.756 () Unpacking backup... (backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-plugins.zip, 28.4 MB)
+0055.766 () Unzipping backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-plugins.zip to D:/xampp81/htdocs-sanggar/wp-content/upgrade/98c66461/ using UpdraftPlus_ZipArchive, starting index 0
+0056.685 () Unzip progress: 1002 out of 5716 files (2.4 MB, plugins/updraftplus/includes/labelauty/LICENSE)
+0058.366 () Unzip progress: 2003 out of 5716 files (22.5 MB, plugins/updraftplus/oc/rs/lb2/OpenCloud/Common/Exceptions/InvalidArgumentError.php)
+0062.396 () Unzip progress: 3004 out of 5716 files (27 MB, plugins/updraftplus/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php)
+0066.432 () Unzip progress: 4005 out of 5716 files (47.6 MB, plugins/shortcodes-ultimate/admin/class-shortcodes-ultimate-admin-addons.php)
+0069.339 () Unzip progress: 5006 out of 5716 files (61.7 MB, plugins/elementor/includes/api.php)
+0070.305 () Unzip progress: 5716 out of 5716 files (73.7 MB, plugins/wp-optimize/index.html)
+0070.318 () Moving old data: filesystem method / updraft_dir is potentially possible
+0070.320 () Moving old data: can potentially use wp_filesystem method / -old
+0070.320 () Moving old data out of the way...
+0070.609 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0070.613 () Moving unpacked backup into place...
+0071.472 () Top-level entities being moved: addon-elements-for-elementor-page-builder, addons-for-elementor, advanced-custom-field-widget, advanced-custom-fields, advanced-post-list, akismet, all-in-one-wp-security-and-firewall, anywhere-elementor, cloudflare, custom-fields-display, dz-elementor-addon, elementor, elementor-addon-widgets, elements-plus, enable-media-replace, essential-addons-for-elementor-lite, fd-elementor-button-plus, foogallery, grid-plus, hello.php, hyper-cache, index.php, navmenu-addon-for-elementor, press-elements, pt-elementor-addons-lite, q2w3-fixed-widget, shortcodes-ultimate, si-captcha-for-wordpress, so-css, sticky-menu-or-anything-on-scroll, tinymce-advanced, updraftplus, wordpress-backup-to-dropbox, wp-optimize, wp-pagenavi, wp-super-cache
+0071.616 () Cleaning up rubbish...
+0071.620 () [W3 Super Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0071.769 () Entity: themes
+0071.769 () restore_backup(backup_file=backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"D:\xampp81\htdocs-sanggar/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0071.772 () Unpacking backup... (backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-themes.zip, 6.4 MB)
+0071.774 () Unzipping backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-themes.zip to D:/xampp81/htdocs-sanggar/wp-content/upgrade/a9a0ba7a/ using UpdraftPlus_ZipArchive, starting index 0
+0073.162 () Unzip progress: 541 out of 541 files (8.9 MB, themes/twentyfourteen/archive.php)
+0073.169 () Moving old data: filesystem method / updraft_dir is potentially possible
+0073.170 () Moving old data: can potentially use wp_filesystem method / -old
+0073.170 () Moving old data out of the way...
+0073.198 () Top-level entities being moved: index.php, twentytwentythree
+0073.369 () Moving unpacked backup into place...
+0073.473 () Top-level entities being moved: index.php, iwankos, themifyflow, twentyfourteen, twentythirteen, twentytwelve
+0073.507 () Cleaning up rubbish...
+0073.981 () Entity: uploads
+0073.981 () restore_backup(backup_file=backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"D:\xampp81\htdocs-sanggar/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0073.981 () Unpacking backup... (backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-uploads.zip, 0.8 MB)
+0073.984 () Unzipping backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-uploads.zip to D:/xampp81/htdocs-sanggar/wp-content/upgrade/3a28a9a6/ using UpdraftPlus_ZipArchive, starting index 0
+0074.196 () Unzip progress: 47 out of 47 files (821.7 KB, uploads/elementor/css/post-76.css)
+0074.200 () Moving old data: filesystem method / updraft_dir is potentially possible
+0074.200 () Moving old data: can potentially use wp_filesystem method / -old
+0074.201 () Moving old data out of the way...
+0074.204 () Moving unpacked backup into place...
+0074.227 () Cleaning up rubbish...
+0074.331 () Entity: others
+0074.332 () restore_backup(backup_file=backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-others.zip, type=others, info=a:2:{s:4:"path";s:36:"D:\xampp81\htdocs-sanggar/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0074.332 () Unpacking backup... (backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-others.zip, 2.6 MB)
+0074.334 () Unzipping backup_2023-12-04-0524_Sanggar_Waringin_ec659637bf14-others.zip to D:/xampp81/htdocs-sanggar/wp-content/upgrade/a17b2456/ using UpdraftPlus_ZipArchive, starting index 0
+0074.965 () Unzip progress: 55 out of 55 files (7.5 MB, wp-cache-config.php)
+0074.972 () advanced-cache.php: Skipping cache file (does not already exist)
+0074.988 () Cleaning up rubbish...
+0075.588 () Restore successful!
+0075.589 () Restore successful

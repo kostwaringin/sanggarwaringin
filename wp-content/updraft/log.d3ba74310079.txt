@@ -1,0 +1,40 @@
+0000.118 () Opened log file at time: Thu, 14 May 2026 16:11:18 +0000 on https://sanggarwaringin.com
+0000.119 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.11 WP: 6.2.2 PHP: 7.4.33 (apache2handler, Windows NT MADX-ASUS 10.0 build 17134 (Windows 10) AMD64) MySQL: 5.5.5 WPLANG: en_US Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.33 safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 42M | 8M) multisite: N openssl: OpenSSL 1.1.1s  1 Nov 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.119 () Free space on disk containing Updraft's temporary directory: 246908.1 MB
+0000.173 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.195 () PHP event: code E_WARNING: Declaration of Updraft_Restorer_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($feedback, ...$args) (line 2451, D:\xampp81\htdocs-sanggar\wp-content\plugins\updraftplus\restorer.php)
+0000.307 () Entity: plugins
+0000.307 () restore_backup(backup_file=backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"D:\xampp81\htdocs-sanggar/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.309 () Unpacking backup... (backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-plugins.zip, 28.4 Mb)
+0005.349 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.349 () Moving old data: can potentially use wp_filesystem method / -old
+0005.349 () Moving old data out of the way...
+0006.200 () Top-level entities being moved: addon-elements-for-elementor-page-builder, addons-for-elementor, advanced-custom-field-widget, advanced-custom-fields, advanced-post-list, akismet, all-in-one-wp-security-and-firewall, anywhere-elementor, cloudflare, custom-fields-display, dz-elementor-addon, elementor, elementor-addon-widgets, elements-plus, enable-media-replace, essential-addons-for-elementor-lite, fd-elementor-button-plus, foogallery, grid-plus, hello.php, hyper-cache, index.php, navmenu-addon-for-elementor, press-elements, pt-elementor-addons-lite, q2w3-fixed-widget, shortcodes-ultimate, si-captcha-for-wordpress, so-css, sticky-menu-or-anything-on-scroll, tinymce-advanced, updraftplus, wordpress-backup-to-dropbox, wp-optimize, wp-pagenavi, wp-super-cache
+0006.225 () Moving unpacked backup into place...
+0007.088 () Top-level entities being moved: addon-elements-for-elementor-page-builder, addons-for-elementor, advanced-custom-field-widget, advanced-custom-fields, advanced-post-list, akismet, all-in-one-wp-security-and-firewall, anywhere-elementor, cloudflare, custom-fields-display, dz-elementor-addon, elementor, elementor-addon-widgets, elements-plus, enable-media-replace, essential-addons-for-elementor-lite, fd-elementor-button-plus, foogallery, grid-plus, hello.php, hyper-cache, index.php, navmenu-addon-for-elementor, press-elements, pt-elementor-addons-lite, q2w3-fixed-widget, shortcodes-ultimate, si-captcha-for-wordpress, so-css, sticky-menu-or-anything-on-scroll, tinymce-advanced, updraftplus, wordpress-backup-to-dropbox, wp-optimize, wp-pagenavi, wp-super-cache
+0007.116 () Cleaning up rubbish...
+0007.366 () Entity: themes
+0007.366 () restore_backup(backup_file=backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"D:\xampp81\htdocs-sanggar/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0007.367 () Unpacking backup... (backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-themes.zip, 6.4 Mb)
+0007.644 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.645 () Moving old data: can potentially use wp_filesystem method / -old
+0007.645 () Moving old data out of the way...
+0007.727 () Top-level entities being moved: index.php, iwankos, themifyflow, twentyfourteen, twentythirteen, twentytwelve
+0007.786 () Moving unpacked backup into place...
+0007.918 () Top-level entities being moved: index.php, iwankos, themifyflow, twentyfourteen, twentythirteen, twentytwelve
+0007.922 () Cleaning up rubbish...
+0008.062 () Entity: uploads
+0008.062 () restore_backup(backup_file=backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"D:\xampp81\htdocs-sanggar/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0008.063 () Unpacking backup... (backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-uploads.zip, 0.8 Mb)
+0008.169 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.169 () Moving old data: can potentially use wp_filesystem method / -old
+0008.169 () Moving old data out of the way...
+0008.191 () Moving unpacked backup into place...
+0008.207 () Cleaning up rubbish...
+0008.328 () Entity: others
+0008.328 () restore_backup(backup_file=backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-others.zip, type=others, info=a:2:{s:4:"path";s:36:"D:\xampp81\htdocs-sanggar/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0008.329 () Unpacking backup... (backup_2025-07-27-2048_Sanggar_Waringin_d925e6543b67-others.zip, 2.6 Mb)
+0008.487 () Cleaning up rubbish...
+0008.848 () Clearing cached pages (WP Super Cache)...
+0008.882 () Restore successful!
+0008.882 () Restore successful
